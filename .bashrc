@@ -3,6 +3,7 @@ alias g="git"
 alias m="make"
 alias gr="grep -v grep | grep "
 alias vi="vim"
+alias v="vim"
 
 # ls
 alias la="ls -a"
