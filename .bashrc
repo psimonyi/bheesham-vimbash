@@ -20,18 +20,10 @@ alias cls="clear"
 alias cdh="cd ~"
 alias tm="tmux"
 
-up(){
-	local d=""
-	limit=$1
-	for ((i=1 ; i <= limit ; i++))
-		do
-			d=$d/..
-		done
-	d=$(echo $d | sed 's/^\///')
-	if [ -z "$d" ]; then
-		d=..
-	fi
-	cd $d
+up() {
+	for ((i=1; i <= ${1:-1}; i++)); do
+		cd ..
+	done
 }
 
 mkcd() {
