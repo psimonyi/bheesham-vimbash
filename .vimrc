@@ -2,7 +2,8 @@ set title           " Display the title of the file
 set number          " Line numbers
 set showcmd         " Show the last command
 set textwidth=80    " Standard
-set tabstop=2       " Looks better
+set tabstop=8       " Standard
+set softtabstop=2   " Looks better
 set shiftwidth=2
 set smartindent     " Because manual indenting sucks
 set background=dark " Comments look better
