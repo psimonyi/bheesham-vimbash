@@ -1,1 +1,1 @@
-	* Replace the CAPS key with ESC
+  * Replace the CAPS key with ESC

@@ -21,15 +21,15 @@ alias cdh="cd ~"
 alias tm="tmux"
 
 up() {
-	for ((i=1; i <= ${1:-1}; i++)); do
-		cd ..
-	done
+  for ((i=1; i <= ${1:-1}; i++)); do
+    cd ..
+  done
 }
 
 mkcd() {
-	if [ $# != 1 ]; then
-		echo "Usage: mkcd <dir>"
-	else
-		mkdir -p $1 && cd $1
-	fi
+  if [ $# != 1 ]; then
+    echo "Usage: mkcd <dir>"
+  else
+    mkdir -p $1 && cd $1
+  fi
 }
